@@ -1,10 +1,10 @@
 ﻿var d;
+
 function OnReady() {
 
     if (localStorage.getItem("roundtime")) {
         d = new Date(localStorage.getItem("roundtime"));
-    }
-    else {
+    } else {
         d = new Date(0, 0, 0, 0, 1, 0, 0);
         localStorage.setItem("roundtime", d);
     }
@@ -12,7 +12,7 @@ function OnReady() {
 
     $(".time").change(function () {
         d = new Date(0, 0, 0, 0, parseInt($("#select-choice-1 option:selected").val()),
-				parseInt($("#select-choice-2 option:selected").val()), 0);
+        parseInt($("#select-choice-2 option:selected").val()), 0);
         localStorage.setItem("roundtime", d);
         setDisplayTime();
     });
@@ -35,8 +35,7 @@ function addOptions(start, end, control) {
 
 function setDisplayTime() {
     d = new Date(localStorage.getItem("roundtime"));
-    $("#timer").text(pad(d.getMinutes()) + ":" +
-			pad(d.getSeconds()));
+    $("#timer").text(pad(d.getMinutes()) + ":" + pad(d.getSeconds()));
 }
 
 function pad(val) {
@@ -94,15 +93,16 @@ function ToggleTimer() {
 }
 
 function PlayMP3(filename) {
-    var mp3 = new Media("app/www/media/" + filename,
+    var mp3 = new Media("/app/www/media/" + filename,
     // success callback
-        function () {
-            console.log("playAudio():Audio Success");
-        },
+    function () {
+        console.log("playAudio():Audio Success");
+    },
     // error callback
-        function (err) {
-            console.log("playAudio():Audio Error: " + err);
-        });
+    function (err) {
+        console.log("playAudio():Audio Error: " + err);
+        console.log("playAudio():Audio Error: " + "/app/www/media/" + filename);
+    });
 
     mp3.play();
 }
