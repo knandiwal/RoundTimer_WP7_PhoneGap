@@ -1,0 +1,14 @@
+@font-face {  
+    font-family: DS-Digital;  
+    src: url( css/font/DS-DIGI.ttf ) format("truetype");  
+}
+
+#mainbutton {
+	border-radius: 15px;
+    border: 2px solid #000000;
+    padding: 8px;
+}
+
+#mainbutton:active {
+	background-color: #C8C6C6;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is auto-generated, do not edit! -jm -->
+<CordovaSourceDictionary>
+    <FilePath Value="www\js\Roundtimer.js"/>
+    <FilePath Value="www\js\jquery-1.7.2.min.js"/>
+    <FilePath Value="www\js\jquery.mobile-1.1.0.min.js"/>
+    <FilePath Value="www\media\Bell.mp3"/>
+    <FilePath Value="www\media\Clap.mp3"/>
+    <FilePath Value="www\media\Horn.mp3"/>
+    <FilePath Value="www\css\themes\default\images\ajax-loader.gif"/>
+    <FilePath Value="www\css\themes\default\images\ajax-loader.png"/>
+    <FilePath Value="www\css\themes\default\images\icons-18-black.png"/>
+    <FilePath Value="www\css\themes\default\images\icons-18-white.png"/>
+    <FilePath Value="www\css\themes\default\images\icons-36-black.png"/>
+    <FilePath Value="www\css\themes\default\images\icons-36-white.png"/>
+    <FilePath Value="www\css\Roundtimer.css"/>
+    <FilePath Value="www\css\themes\default\jquery.mobile-1.1.0.min.css"/>
+    <FilePath Value="www\css\themes\default\jquery.mobile.structure-1.1.0.min.css"/>
+    <FilePath Value="www\css\themes\default\jquery.mobile.theme-1.1.0.min.css"/>
+    <FilePath Value="www\images\start.png"/>
+    <FilePath Value="www\images\stop.png"/>
+    <FilePath Value="www\js\index.js"/>
+    <FilePath Value="www\js\cordova-2.0.0.js"/>
+    <FilePath Value="www\images\cordova.png"/>
+    <FilePath Value="www\index.html"/>
+    <FilePath Value="www\css\font\DS-DIGI.TTF"/>
+</CordovaSourceDictionary>
